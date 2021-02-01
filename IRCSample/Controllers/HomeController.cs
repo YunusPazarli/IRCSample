@@ -10,6 +10,7 @@ namespace IRCSample.Controllers
     {
         public IActionResult Index()
         {
+
             return View();
         }
     }
