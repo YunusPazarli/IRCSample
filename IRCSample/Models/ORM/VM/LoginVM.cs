@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace IRCSample.Models
+namespace IRCSample.Models.ORM.VM
 {
     public class LoginVM
     {

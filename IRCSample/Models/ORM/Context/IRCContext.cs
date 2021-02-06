@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace IRCSample.Models.ORM.Context
 {
-    public class IRCContext:DbContext
+    public class IRCContext : DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -16,5 +16,5 @@ namespace IRCSample.Models.ORM.Context
 
         public DbSet<ChatUsers> ChatUsers { get; set; }
     }
-    
+
 }
